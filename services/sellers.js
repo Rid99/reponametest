@@ -45,7 +45,7 @@ async function getMultiple(page = 1){
     let message = 'Error in deleting seller';
   
     if (result.affectedRows) {
-      message = 'seller deleted successfully';
+      message = 'seller deleted successfully .now deleted so';
     }
   
     return {message};
